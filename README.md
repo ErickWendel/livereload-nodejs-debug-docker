@@ -1,6 +1,9 @@
-# Debugging Node.js
+# Debugging Node.js apps with livereload and Docker
 
 This repository is an example of how to run a Node.js program in debug mode from Docker with live reload enabled.
+### Demo
+
+![](https://github.com/ErickWendel/livereload-nodejs-debug-docker/blob/master/example.gif?raw=true)
 
 ## Intro
 
@@ -28,14 +31,12 @@ You can also run a few commands such as:
 - `exec calculation` you can see the current value stored on `calculation` variable
 - `r` to restart and so on.
 
-## 2 - Using your browser who is based on Chromium
+## 2 - Using your browser which is based on Chromium
 
 Following this repository, you'd run `docker-compose up --build` then you'd go to your browser, open your `inpection menu` (using `F12`) then you'd see your app there
+
 
 ## Author
 
 - [twitter.com/erickwendel_](https://twitter.com/erickwendel_)
 
-### Demo
-
-![](https://github.com/ErickWendel/livereload-nodejs-debug-docker/blob/master/example.gif?raw=true)
