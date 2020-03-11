@@ -38,4 +38,4 @@ Following this repository, you'd run `docker-compose up --build` then you'd go t
 
 ### Demo
 
-![](https://raw.githubusercontent.com/ErickWendel/livereload-nodejs-debug-docker/example.gif)
+![](https://github.com/ErickWendel/livereload-nodejs-debug-docker/blob/master/example.gif?raw=true)
