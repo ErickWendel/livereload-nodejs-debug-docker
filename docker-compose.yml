@@ -6,7 +6,7 @@ services:
     environment: 
       PORT: 3000
       HOST: '0.0.0.0'
-    # stdin_open: true
+    
     # command: npm run debug:terminal
     volumes:
       - .:/src
