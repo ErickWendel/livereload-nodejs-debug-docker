@@ -36,6 +36,6 @@ Following this repository, you'd run `docker-compose up --build` then you'd go t
 
 - [twitter.com/erickwendel_](https://twitter.com/erickwendel_)
 
-## Video (WIP)
+### Demo
 
-...
+![](https://raw.githubusercontent.com/ErickWendel/livereload-nodejs-debug-docker/example.gif)
