@@ -1,4 +1,4 @@
-# Debugging Node.js
+# Debugging Node.js apps with livereload and Docker
 
 This repository is an example of how to run a Node.js program in debug mode from Docker with live reload enabled.
 ### Demo
