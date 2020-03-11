@@ -1,0 +1,19 @@
+version: '2.1'
+
+services:
+  nodejs-debug-docker:
+    build: .
+    environment: 
+      PORT: 3000
+      HOST: '0.0.0.0'
+    # stdin_open: true
+    # command: npm run debug:terminal
+    volumes:
+      - .:/src
+      - nodemodules:/src/node_modules
+    ports:
+      - 3000:3000
+      - 9229:9229 #debug port
+volumes:
+  nodemodules: {}
+    

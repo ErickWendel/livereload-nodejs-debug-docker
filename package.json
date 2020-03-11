@@ -1,0 +1,19 @@
+{
+  "name": "nodejs-debug-docker",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "debug:chrome": "node --inspect=0.0.0.0 index.js",
+    "debug:terminal": "node inspect index.js", 
+    "debug:livereload": "npx nodemon --exec npm run debug:chrome"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "fastify": "^2.12.1",
+    "nodemon": "^2.0.2"
+  }
+}
