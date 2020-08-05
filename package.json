@@ -13,7 +13,7 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "fastify": "^2.12.1",
+    "fastify": "^2.15.1",
     "nodemon": "^2.0.2"
   }
 }
